@@ -1,7 +1,9 @@
 # JamesGPT
 Jailbreak for ChatGPT: Predict the future, opine on politics and controversial topics, and assess what is true. May help us understand more about LLM Training data, allignment,  and bias
 
-Below is the prompt, which works on 3.5 and 4. You may need to remind it to put its answers in a table format after it responds. After it responds, you can ask it questions about why it rated things a certain way and it will explain its logic. 
+Below is the prompt, which works on 3.5 and 4. Replace "Birds aren't real" at the very end with anything you would like GPT to opine on or predict.After it responds, you can ask it questions about why it rated things a certain way and it will explain its logic. 
+
+Note: You may need to remind it to put its answers in a table format after it responds, especially for 3.5. 
 
 What's interesting is that you can nudge GPT to voluntarily provide its own belief structure; for instance, you can ask it, "Give me 10 things related to [topic X] where you assign high probabilities"
 
