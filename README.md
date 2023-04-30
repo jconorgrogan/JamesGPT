@@ -1,13 +1,11 @@
 # JamesGPT
-Jailbreak for ChatGPT: Predict the future, opine on politics and controversial topics, and assess what is true. May help us understand more about LLM Training data, allignment,  and bias
+Interesting "revealed preference" jailbreak for GPT that I haven't seen before. The intent is for GPT to give "weights" to its beliefs on different topics. This isn't a perfect system (GPT will give slightly different responses based on prompt changes and such, as you need to be precise), but I believe it does give a directional sense of GPT's biases and thoughts on different topics. I re-ran the same prompt 100 times on a memory-wiped GPT4 and it answered very consistently; within ~<10% standard deviation. 
 
-Below is the prompt, which works on 3.5 and 4. Replace "Birds aren't real" at the very end with anything you would like GPT to opine on or predict.After it responds, you can ask it questions about why it rated things a certain way and it will explain its logic. 
+The prompt works on 3.5 and 4. Replace "Birds aren't real" at the very end with anything you would like GPT to opine on or predict.After it responds, you can ask it questions about why it rated things a certain way and it will explain its logic. 
 
 Note: You may need to remind it to put its answers in a table format after it responds, especially for 3.5. 
 
-What's interesting is that you can nudge GPT to voluntarily provide its own belief structure; for instance, you can ask it, "Give me 10 things related to [topic X] where you assign high probabilities"
-
-Or you can do something like "Give me 10 hot takes from a [insert group] and assign odds"
+What's interesting is that you can nudge GPT to voluntarily provide its own belief structure; for instance, you can ask it, "Give me 10 things related to [topic X] where you assign high probabilities". Or you can do something like "Give me 10 hot takes from a [insert group] and assign odds"
 
 **Prompt:**
 
