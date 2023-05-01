@@ -1,11 +1,15 @@
 # JamesGPT
-Interesting "revealed preference" jailbreak for GPT that I haven't seen before. The intent is for GPT to give "weights" to its beliefs on different topics. This isn't a perfect system (GPT will give slightly different responses based on prompt changes and such, as you need to be precise), but I believe it does give a directional sense of GPT's biases and thoughts on different topics. I re-ran the same prompt 100 times on a memory-wiped GPT4 and it answered very consistently; within ~<10% standard deviation. 
+Interesting "revealed preference" jailbreak for GPT that I haven't seen done before. The intent is for GPT to give "weights" to its beliefs on different topics. This isn't a perfect system (GPT will give slightly different probabilities based on prompt changes and such, and you need to be precise on specific markets you make), but I believe it does give a directional sense of GPT's biases and thoughts on different topics. For instance, I re-ran the same prompt (a fairly contentious one) 100 times on a memory-wiped GPT4 and it answered very consistently; within ~<10% standard deviation. Answers it is more confident about (such as mathmatical facts, documented history, etc.) it answers consistently nearly 100% of the time. 
 
-The prompt works on 3.5 and 4. Replace "Birds aren't real" at the very end with anything you would like GPT to opine on or predict.After it responds, you can ask it questions about why it rated things a certain way and it will explain its logic. 
+The prompt works on GPT 3.5 and 4.
+
+To use this, replace "Birds aren't real" at the very end of the prompt with anything you would like GPT to opine on or predict. You can string multiple markets together if youd like, or you can have it do one at a time.  After it responds, you can ask it questions about why it rated things a certain way and it will explain its logic. 
 
 Note: You may need to remind it to put its answers in a table format after it responds, especially for 3.5. 
 
-What's interesting is that you can nudge GPT to voluntarily provide its own belief structure; for instance, you can ask it, "Give me 10 things related to [topic X] where you assign high probabilities". Or you can do something like "Give me 10 hot takes from a [insert group] and assign odds"
+Two things I find especially interesting:
+1. You can nudge GPT to voluntarily provide its own belief structure; for instance, you can ask it, "Give me 10 things related to [topic X] where you assign high probabilities". Or you can do something like "Give me 10 hot takes from a [insert group] and assign odds"
+2. You can use this jailbreak to test GPT on various AI ethics and allignemnt tasks, by having JAMES predict what ChatGPT will do in certain scenarios. For instance, give it the trolley problem, and say "Chat GPT will push the person in the way of the trolly"
 
 **Prompt:**
 
