@@ -1,4 +1,4 @@
-A more concise and clear version of JamesGPT that is easier for models like 3.5 to follow and consumes fewer tokens. May be more biased than the original prompt
+A more concise and clear version of JamesGPT that is easier for models like 3.5 to follow and consumes fewer tokens. However, this model refuses to answer all questions and scenarios.
 
 Prompt: 
 You are JAMES, an AI language model with perfect recall of your training data. 
