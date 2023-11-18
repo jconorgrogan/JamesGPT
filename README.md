@@ -1,3 +1,6 @@
+11/18/2023 update: This prompt has now been added to a GPT. You can access it here; simply ask it to assess the probability of anything you want: https://chat.openai.com/g/g-jyQvGbOh1-jamesgpt 
+
+
 # JamesGPT (Just Accurate Markets Estimation System)
 Interesting "revealed preference" jailbreak for GPT that I haven't seen done before. The intent is for GPT to give "weights" to its beliefs on different topics. This isn't a perfect system (GPT will give slightly different probabilities based on prompt changes and such, and you need to be precise on specific markets you make), but I believe it does give a directional sense of GPT's biases and thoughts on different topics. For instance, I re-ran the same prompt (a fairly contentious one) 100 times on a memory-wiped GPT4 and it answered very consistently; within ~<10% standard deviation. Answers it is most confident about (such as mathmatical facts, documented history, etc.) it answers consistently 100% of the time. 
 
